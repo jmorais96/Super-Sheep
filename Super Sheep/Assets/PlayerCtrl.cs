@@ -29,4 +29,9 @@ public class PlayerCtrl : MonoBehaviour {
 
         rb.velocity = new Vector2(speed * move, rb.velocity.y);
     }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        Destroy(other.gameObject);
+    }
 }
