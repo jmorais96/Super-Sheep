@@ -6,7 +6,7 @@ public class PlayerMovement : MonoBehaviour
 {
     public int playerSpeed = 10;
     private bool facingRight = true;
-    public int playerJumpPower = 1250;
+    public int playerJumpPower;
     private float moveX;
 
     void Update() {
@@ -20,6 +20,8 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetButtonDown("Jump")){
             Jump();
         }
+
+
         //ANIMATIONS
         //PLAYER DIRECTION
         if (moveX < 0.0f && facingRight == false){
@@ -27,11 +29,13 @@ public class PlayerMovement : MonoBehaviour
         }else if (moveX > 0.0f && facingRight == true){
             FlipPlayer();
         }
+
         //PHYSICS
         gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(moveX * playerSpeed,gameObject.GetComponent<Rigidbody2D>().velocity.y);
     }
 
     void Jump(){
+
         //JUMPING CODE
         GetComponent<Rigidbody2D>().AddForce (Vector2.up * playerJumpPower);
     }
