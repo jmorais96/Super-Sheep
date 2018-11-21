@@ -30,7 +30,7 @@ public class PlayerCtrl : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.UpArrow))
         {
             // set jump force to 7 (prob needs to be changed in the future)
-            jumpForce = 7f;
+          //  jumpForce = 7f;
 
             // the actual jump
             rb.velocity = Vector2.up * jumpForce;
