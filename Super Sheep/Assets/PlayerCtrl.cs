@@ -13,6 +13,7 @@ public class PlayerCtrl : MonoBehaviour
 
     // defines jump force for player (jump hight controler)
     public float jumpForce;
+    private bool toJump;
 
     // Use this for initialization
     void Start ()
@@ -29,11 +30,14 @@ public class PlayerCtrl : MonoBehaviour
         
         if (Input.GetKeyDown(KeyCode.UpArrow))
         {
-            // set jump force to 7 (prob needs to be changed in the future)
-            jumpForce = 7f;
 
-            // the actual jump
-            rb.velocity = Vector2.up * jumpForce;
+            //check if player is moving verticaly (is jumping or falling)
+            if (rb.velocity.y == 0f){
+                // if yes actual jump
+                rb.velocity = Vector2.up * jumpForce;
+            }
+
+            
         }
 
     }
