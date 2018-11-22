@@ -22,9 +22,9 @@ public class PlayerMovement : MonoBehaviour
         }
         //ANIMATIONS
         //PLAYER DIRECTION
-        if (moveX < 0.0f && facingRight == true){
+        if (moveX < 0.0f && facingRight == false){
             FlipPlayer();
-        }else if (moveX > 0.0f && facingRight == false){
+        }else if (moveX > 0.0f && facingRight == true){
             FlipPlayer();
         }
         //PHYSICS
