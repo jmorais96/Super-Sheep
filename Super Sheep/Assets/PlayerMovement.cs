@@ -5,9 +5,9 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     public int playerSpeed = 10;
-    private bool facingRight = true;
+    public bool facingRight = false;
     public int playerJumpPower = 1250;
-    private float moveX;
+    public float moveX;
 
     void Update() {
         PlayerMove();
@@ -22,9 +22,9 @@ public class PlayerMovement : MonoBehaviour
         }
         //ANIMATIONS
         //PLAYER DIRECTION
-        if (moveX < 0.0f && facingRight == false){
+        if (moveX < 0.0f && facingRight == true){
             FlipPlayer();
-        }else if (moveX > 0.0f && facingRight == true){
+        }else if (moveX > 0.0f && facingRight == false){
             FlipPlayer();
         }
         //PHYSICS
@@ -37,7 +37,10 @@ public class PlayerMovement : MonoBehaviour
     }
     
     void FlipPlayer(){
-
+facingRight = !facingRight;
+        Vector2 localScale = gameObject.transform.localScale;
+        localScale.x *= -1;
+        transform.localScale = localScale;
     }
 
     private void OnTriggerEnter2D(Collider2D other)
