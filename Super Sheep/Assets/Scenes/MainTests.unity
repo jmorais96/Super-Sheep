@@ -3883,7 +3883,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   xMin: 1.44
-  xMax: 6.73
+  xMax: 200
   yMin: 0
   yMax: 0
 --- !u!20 &519420031
