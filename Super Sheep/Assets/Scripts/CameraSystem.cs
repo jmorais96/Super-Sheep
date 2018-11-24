@@ -5,10 +5,10 @@ using UnityEngine;
 public class CameraSystem : MonoBehaviour {
 	
 	private GameObject player;
-	public float xMin;
-	public float xMax;
-	public float yMin;
-	public float yMax;
+	public float xMin = 7;
+	public float xMax = 300;
+	public float yMin = -30;
+	public float yMax = 100;
 
 	// Use this for initialization
 	void Start () {

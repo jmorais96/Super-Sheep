@@ -3266,6 +3266,34 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &435642040
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 435642041}
+  m_Layer: 8
+  m_Name: FirePoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &435642041
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 435642040}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.78, y: -0.25, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1853902211}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &451340464
 GameObject:
   m_ObjectHideFlags: 0
@@ -3934,7 +3962,7 @@ MonoBehaviour:
   xMin: 7
   xMax: 300
   yMin: -30
-  yMax: 0
+  yMax: 100
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -16315,6 +16343,7 @@ GameObject:
   - component: {fileID: 1853902215}
   - component: {fileID: 1853902214}
   - component: {fileID: 1853902209}
+  - component: {fileID: 1853902216}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -16393,11 +16422,12 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1853902208}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -16.869999, y: -4.34, z: 0}
+  m_LocalPosition: {x: -17.44, y: -4.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 657286670}
   - {fileID: 860536599}
+  - {fileID: 435642041}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -16472,6 +16502,20 @@ MonoBehaviour:
   facingRight: 0
   playerJumpPower: 1750
   moveX: 0
+--- !u!114 &1853902216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1853902208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8d64060c060e2941aa37996fa43ba96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firePoint: {fileID: 435642041}
+  bulleftPrefab: {fileID: 1005239293281126, guid: 33d9d1638be846a489d7a3d0cf416040,
+    type: 2}
 --- !u!1 &1854837454
 GameObject:
   m_ObjectHideFlags: 0
