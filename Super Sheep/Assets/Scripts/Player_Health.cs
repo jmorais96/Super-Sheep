@@ -12,8 +12,20 @@ public class Player_Health : MonoBehaviour {
 		}
 	}
 
-	void Die () {
-		SceneManager.LoadScene ("MainTests");
-	}
+    // Death when the sheep touchs an enemy or spike
+    private void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.gameObject.name == "Spikes")
+        {
+            System.Threading.Thread.Sleep(300);
+            Die();
+        }
+    }
+
+    // Death method
+    void Die()
+    {
+        SceneManager.LoadScene("MainTests");
+    }
 
 }

@@ -61,14 +61,16 @@ public class PlayerMovement : MonoBehaviour
 
     void FlipPlayer(){
         facingRight = !facingRight;
-        Vector2 localScale = gameObject.transform.localScale;
-        localScale.x *= -1;
-        transform.localScale = localScale;
+
+        transform.Rotate(0f, 180f, 0f);
     }
 
     private void OnTriggerEnter2D(Collider2D other)
-    {
-        Destroy(other.gameObject);
+    {   
+        if (other.gameObject.name != "Spikes")
+        { 
+            Destroy(other.gameObject);
+        }
     }
     
 }
