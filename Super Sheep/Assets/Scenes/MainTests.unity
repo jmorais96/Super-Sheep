@@ -6938,7 +6938,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1080fcdbbdad1e3458abd4625b23710f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xMin: 7
+  xMin: 1
   xMax: 300
   yMin: -30
   yMax: 100
@@ -6966,7 +6966,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 13.687509
+  orthographic size: 9
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
