@@ -11,12 +11,21 @@ public class PlayerMovement : MonoBehaviour
     public int playerJumpPower = 250;
     public float moveX;
 
+    public bool grounded;
+    public LayerMask whatIsGround;
+
+    private Collider2D myCollider;
+
     void Start()
     {
         animator = GetComponent<Animator>();
+
+        myCollider = GetComponent<Collider2D>();
     }
 
     void Update() {
+
+        grounded = Physics2D.IsTouchingLayers(myCollider, whatIsGround);
 
         PlayerMove();
 
@@ -25,15 +34,12 @@ public class PlayerMovement : MonoBehaviour
     void PlayerMove(){
     
         if (Input.GetKey(KeyCode.X)){
-            
 
-            if (gameObject.GetComponent<Rigidbody2D>().velocity.y == 0f)
-            {
-               
+            if (grounded){
                 Jump();
-                
             }
-
+            
+                
         }
         
         //CONTROLS
@@ -62,7 +68,6 @@ public class PlayerMovement : MonoBehaviour
         //JUMPING CODE
 
         GetComponent<Rigidbody2D>().AddForce(Vector2.up * playerJumpPower);
-
 
         //ANIMATOR JUMPING TRUE
 
