@@ -11,8 +11,6 @@ public class PlayerMovement : MonoBehaviour
     public int playerJumpPower = 250;
     public float moveX;
 
-
-
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -26,7 +24,7 @@ public class PlayerMovement : MonoBehaviour
 
     void PlayerMove(){
     
-        if (Input.GetButtonDown("Jump")){
+        if (Input.GetKey(KeyCode.X)){
             
 
             if (gameObject.GetComponent<Rigidbody2D>().velocity.y == 0f)
@@ -60,11 +58,10 @@ public class PlayerMovement : MonoBehaviour
 
     void Jump(){
 
-       
-        //JUMPING CODE
-        GetComponent<Rigidbody2D>().AddForce (Vector2.up * playerJumpPower);
 
-      
+        //JUMPING CODE
+
+        GetComponent<Rigidbody2D>().AddForce(Vector2.up * playerJumpPower);
 
 
         //ANIMATOR JUMPING TRUE
