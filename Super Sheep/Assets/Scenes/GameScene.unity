@@ -448,7 +448,7 @@ GameObject:
   - component: {fileID: 21757461}
   - component: {fileID: 21757460}
   - component: {fileID: 21757459}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Static Cloud 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1126,7 +1126,7 @@ GameObject:
   - component: {fileID: 77632350}
   - component: {fileID: 77632353}
   - component: {fileID: 77632354}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Alien 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3092,7 +3092,7 @@ GameObject:
   - component: {fileID: 259976259}
   - component: {fileID: 259976258}
   - component: {fileID: 259976257}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Und Cloud 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3918,7 +3918,7 @@ GameObject:
   - component: {fileID: 286257325}
   - component: {fileID: 286257324}
   - component: {fileID: 286257323}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Und Cloud 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5305,7 +5305,7 @@ GameObject:
   - component: {fileID: 391826411}
   - component: {fileID: 391826410}
   - component: {fileID: 391826409}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Und Cloud 8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9729,7 +9729,7 @@ GameObject:
   - component: {fileID: 688041475}
   - component: {fileID: 688041474}
   - component: {fileID: 688041473}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Und Cloud 7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12235,7 +12235,7 @@ GameObject:
   - component: {fileID: 879940803}
   - component: {fileID: 879940802}
   - component: {fileID: 879940801}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Und Cloud 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15890,7 +15890,7 @@ GameObject:
   - component: {fileID: 1081675927}
   - component: {fileID: 1081675926}
   - component: {fileID: 1081675925}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Und Cloud 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17328,7 +17328,7 @@ GameObject:
   - component: {fileID: 1173052034}
   - component: {fileID: 1173052033}
   - component: {fileID: 1173052032}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Und Cloud 9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25663,7 +25663,7 @@ GameObject:
   - component: {fileID: 1758521908}
   - component: {fileID: 1758521907}
   - component: {fileID: 1758521906}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Und Cloud 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27823,6 +27823,10 @@ MonoBehaviour:
   facingRight: 0
   playerJumpPower: 1750
   moveX: 0
+  grounded: 0
+  whatIsGround:
+    serializedVersion: 2
+    m_Bits: 1024
 --- !u!114 &1853902216
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31231,7 +31235,7 @@ GameObject:
   - component: {fileID: 2144115010}
   - component: {fileID: 2144115009}
   - component: {fileID: 2144115008}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Static Cloud 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}

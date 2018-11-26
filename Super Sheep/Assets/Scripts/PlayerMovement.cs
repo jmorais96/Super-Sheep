@@ -33,7 +33,7 @@ public class PlayerMovement : MonoBehaviour
 
     void PlayerMove(){
     
-        if (Input.GetKey(KeyCode.X)){
+        if (Input.GetKeyDown(KeyCode.X)){
 
             if (grounded){
                 Jump();
