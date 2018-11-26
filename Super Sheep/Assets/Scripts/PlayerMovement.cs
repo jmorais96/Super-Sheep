@@ -3,10 +3,6 @@ using UnityEngine.Events;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public UnityEvent OnLandEvent;
-
-    [System.Serializable]
-    public class BoolEvent : UnityEvent<bool> { }
 
     
     public Animator animator;
@@ -14,9 +10,13 @@ public class PlayerMovement : MonoBehaviour
     public bool facingRight = false;
     public int playerJumpPower = 250;
     public float moveX;
-    private Rigidbody2D m_Rigidbody2D;
 
-   
+
+
+    void Start()
+    {
+        animator = GetComponent<Animator>();
+    }
 
     void Update() {
 
@@ -27,10 +27,15 @@ public class PlayerMovement : MonoBehaviour
     void PlayerMove(){
     
         if (Input.GetButtonDown("Jump")){
+            
 
-            Jump();
+            if (gameObject.GetComponent<Rigidbody2D>().velocity.y == 0f)
+            {
+               
+                Jump();
+                
+            }
 
-            animator.SetBool("IsJumping", true);
         }
         
         //CONTROLS
@@ -44,7 +49,9 @@ public class PlayerMovement : MonoBehaviour
         }else if (moveX > 0.0f && facingRight == true){
             FlipPlayer();
         }
-        
+
+       
+
         //PHYSICS
         gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(moveX * playerSpeed,gameObject.GetComponent<Rigidbody2D>().velocity.y);
 
@@ -53,19 +60,22 @@ public class PlayerMovement : MonoBehaviour
 
     void Jump(){
 
-        
+       
         //JUMPING CODE
         GetComponent<Rigidbody2D>().AddForce (Vector2.up * playerJumpPower);
 
-        
+      
+
+
         //ANIMATOR JUMPING TRUE
 
     }
 
-    public void OnLanding()
+    public void OnLanding ()
     {
         animator.SetBool("IsJumping", false);
     }
+
 
     void FlipPlayer(){
 
