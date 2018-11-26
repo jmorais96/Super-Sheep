@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class CloudMovement : MonoBehaviour {
 
-    public int CloudSpeed;
-    public int XMoveDirection;
+    public float CloudSpeed;
+    public float XMoveDirection;
 
     // Update is called once per frame
     void Update()

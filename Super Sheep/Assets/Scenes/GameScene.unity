@@ -8143,8 +8143,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db77c884996d31c4f80ff811ca60aa1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CloudSpeed: 1
-  XMoveDirection: -1
+  CloudSpeed: 0.5
+  XMoveDirection: -10.6
 --- !u!50 &584658646
 Rigidbody2D:
   serializedVersion: 4
@@ -9747,7 +9747,7 @@ Transform:
   m_LocalScale: {x: 1.105333, y: 1.1679242, z: 0.9693771}
   m_Children: []
   m_Father: {fileID: 713406874}
-  m_RootOrder: 8
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!58 &688041473
 CircleCollider2D:
@@ -10365,9 +10365,9 @@ Transform:
   - {fileID: 286257322}
   - {fileID: 1081675924}
   - {fileID: 1758521905}
-  - {fileID: 1173052031}
-  - {fileID: 391826408}
   - {fileID: 688041472}
+  - {fileID: 391826408}
+  - {fileID: 1173052031}
   m_Father: {fileID: 1752591559}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -11747,7 +11747,6 @@ GameObject:
   - component: {fileID: 820363595}
   - component: {fileID: 820363594}
   - component: {fileID: 820363593}
-  - component: {fileID: 820363592}
   m_Layer: 10
   m_Name: Und Cloud 1
   m_TagString: Untagged
@@ -11768,19 +11767,6 @@ Transform:
   m_Father: {fileID: 713406874}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &820363592
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 820363590}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: db77c884996d31c4f80ff811ca60aa1e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CloudSpeed: 0
-  XMoveDirection: 0
 --- !u!58 &820363593
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -17360,7 +17346,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 713406874}
-  m_RootOrder: 6
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!58 &1173052032
 CircleCollider2D:
