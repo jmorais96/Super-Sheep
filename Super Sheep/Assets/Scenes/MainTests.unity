@@ -26911,7 +26911,7 @@ Animator:
   m_GameObject: {fileID: 1853902208}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 56a2cf164a9ec4106b5b2c91e0fb4590, type: 2}
+  m_Controller: {fileID: 9100000, guid: 583f6e4b246844b94b45515b361508b4, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -27039,6 +27039,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c72612248d493fa4889802c341c24d39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OnLandEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11500000, guid: c72612248d493fa4889802c341c24d39, type: 3}
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  animator: {fileID: 1853902209}
   playerSpeed: 10
   facingRight: 0
   playerJumpPower: 1750
