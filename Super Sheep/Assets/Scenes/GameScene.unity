@@ -27669,11 +27669,13 @@ GameObject:
   - component: {fileID: 1853902210}
   - component: {fileID: 1853902213}
   - component: {fileID: 1853902215}
+  - component: {fileID: 1853902219}
   - component: {fileID: 1853902214}
   - component: {fileID: 1853902209}
   - component: {fileID: 1853902216}
   - component: {fileID: 1853902217}
   - component: {fileID: 1853902212}
+  - component: {fileID: 1853902218}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -27690,7 +27692,7 @@ Animator:
   m_GameObject: {fileID: 1853902208}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 56a2cf164a9ec4106b5b2c91e0fb4590, type: 2}
+  m_Controller: {fileID: 9100000, guid: 583f6e4b246844b94b45515b361508b4, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -27818,6 +27820,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c72612248d493fa4889802c341c24d39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 1853902209}
   playerSpeed: 10
   facingRight: 0
   playerJumpPower: 1750
@@ -27851,6 +27854,91 @@ CircleCollider2D:
   m_Offset: {x: -0.39091587, y: -0.032576323}
   serializedVersion: 2
   m_Radius: 1.1231272
+--- !u!114 &1853902218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1853902208}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4128dd98fe06f4540b7ecc5452940cf3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_JumpForce: 400
+  m_CrouchSpeed: 0.36
+  m_MovementSmoothing: 0.05
+  m_AirControl: 0
+  m_WhatIsGround:
+    m_Bits: 0
+  m_GroundCheck: {fileID: 0}
+  m_CeilingCheck: {fileID: 0}
+  m_CrouchDisableCollider: {fileID: 0}
+  m_Grounded: 0
+  m_Rigidbody2D: {fileID: 0}
+  m_FacingRight: 1
+  m_Velocity: {x: 0, y: 0, z: 0}
+  OnLandEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11500000, guid: 4128dd98fe06f4540b7ecc5452940cf3, type: 3}
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_CallsDirty: 1
+  OnCrouchEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: CharacterController2D+BoolEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_CallsDirty: 1
+  m_wasCrouching: 0
+--- !u!114 &1853902219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1853902208}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4128dd98fe06f4540b7ecc5452940cf3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_JumpForce: 400
+  m_CrouchSpeed: 0.36
+  m_MovementSmoothing: 0.05
+  m_AirControl: 0
+  m_WhatIsGround:
+    m_Bits: 0
+  m_GroundCheck: {fileID: 0}
+  m_CeilingCheck: {fileID: 0}
+  m_CrouchDisableCollider: {fileID: 0}
+  m_Grounded: 0
+  m_Rigidbody2D: {fileID: 0}
+  m_FacingRight: 1
+  m_Velocity: {x: 0, y: 0, z: 0}
+  OnLandEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_CallsDirty: 1
+  OnCrouchEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: CharacterController2D+BoolEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_CallsDirty: 1
+  m_wasCrouching: 0
 --- !u!1 &1857896344
 GameObject:
   m_ObjectHideFlags: 0
