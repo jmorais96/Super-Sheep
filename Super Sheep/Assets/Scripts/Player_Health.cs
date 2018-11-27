@@ -25,7 +25,7 @@ public class Player_Health : MonoBehaviour {
     // Death method
     void Die()
     {
-        SceneManager.LoadScene("GameScene");
+        //SceneManager.LoadScene("GameScene");
     }
 
 }
