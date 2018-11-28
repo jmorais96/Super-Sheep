@@ -9,7 +9,6 @@ public class PlatformAttach : MonoBehaviour {
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject == Player)
-            print("test");
 
         {
             Player.transform.parent = transform;
