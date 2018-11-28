@@ -19,6 +19,10 @@ public class Player_Health : MonoBehaviour {
         {
             System.Threading.Thread.Sleep(300);
             Die();
+        } else if (col.gameObject.name == "Enemy")
+        {
+            System.Threading.Thread.Sleep(300);
+            Die();
         }
     }
 
