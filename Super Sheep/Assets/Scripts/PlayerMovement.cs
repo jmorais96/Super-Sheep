@@ -88,7 +88,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {   
-        if (other.gameObject.name == "Power Up")
+        if (other.gameObject.name == "vida")
         { 
             Destroy(other.gameObject);
         }
