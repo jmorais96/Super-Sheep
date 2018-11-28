@@ -35,7 +35,12 @@ public class PlayerMovement : MonoBehaviour
     
         if (Input.GetKeyDown(KeyCode.X)){
 
+            animator.SetTrigger("Jump");
+
             if (grounded){
+
+                animator.SetFloat("Speed", -1);
+
                 Jump();
             }
             
@@ -71,11 +76,6 @@ public class PlayerMovement : MonoBehaviour
 
         //ANIMATOR JUMPING TRUE
 
-    }
-
-    public void OnLanding ()
-    {
-        animator.SetBool("IsJumping", false);
     }
 
 
