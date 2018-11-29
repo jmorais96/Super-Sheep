@@ -28,6 +28,7 @@ public class PlayerMovement : MonoBehaviour
         grounded = Physics2D.IsTouchingLayers(myCollider, whatIsGround);
 
         PlayerMove();
+      
 
     }
 
