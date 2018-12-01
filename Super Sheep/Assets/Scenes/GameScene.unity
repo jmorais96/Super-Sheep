@@ -122,7 +122,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4658303}
   - component: {fileID: 4658304}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: chao-01 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -298,7 +298,7 @@ GameObject:
   m_Component:
   - component: {fileID: 12901941}
   - component: {fileID: 12901942}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: nuvens-01 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -591,7 +591,7 @@ GameObject:
   m_Component:
   - component: {fileID: 16505900}
   - component: {fileID: 16505901}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: chao-01 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -793,7 +793,7 @@ GameObject:
   m_Component:
   - component: {fileID: 21916770}
   - component: {fileID: 21916771}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: chao-01 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1044,7 +1044,7 @@ GameObject:
   m_Component:
   - component: {fileID: 48185845}
   - component: {fileID: 48185846}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: nuvens-01 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2031,7 +2031,7 @@ GameObject:
   m_Component:
   - component: {fileID: 136600959}
   - component: {fileID: 136600960}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: chao-01 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2836,7 +2836,7 @@ GameObject:
   m_Component:
   - component: {fileID: 215683599}
   - component: {fileID: 215683600}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: arvores-01 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3289,7 +3289,7 @@ GameObject:
   m_Component:
   - component: {fileID: 235540926}
   - component: {fileID: 235540927}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: fundo-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3465,7 +3465,7 @@ GameObject:
   m_Component:
   - component: {fileID: 243560743}
   - component: {fileID: 243560744}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: chao-01 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3540,7 +3540,7 @@ GameObject:
   m_Component:
   - component: {fileID: 252272593}
   - component: {fileID: 252272594}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: arvores-01 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4510,7 +4510,7 @@ GameObject:
   m_Component:
   - component: {fileID: 275614324}
   - component: {fileID: 275614325}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: arvores-01 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5456,7 +5456,7 @@ GameObject:
   m_Component:
   - component: {fileID: 339587914}
   - component: {fileID: 339587915}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: nuvens-01 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5571,7 +5571,7 @@ GameObject:
   m_Component:
   - component: {fileID: 348910021}
   - component: {fileID: 348910022}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: nuvens-01 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6809,7 +6809,7 @@ GameObject:
   m_Component:
   - component: {fileID: 445305690}
   - component: {fileID: 445305691}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: arvores-01 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7964,7 +7964,7 @@ GameObject:
   m_Component:
   - component: {fileID: 528171681}
   - component: {fileID: 528171682}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: nuvens-01 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8562,7 +8562,7 @@ GameObject:
   m_Component:
   - component: {fileID: 569340968}
   - component: {fileID: 569340969}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: montanhas-01 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9004,7 +9004,7 @@ GameObject:
   m_Component:
   - component: {fileID: 585841340}
   - component: {fileID: 585841341}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: nuvens-01 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9382,7 +9382,7 @@ GameObject:
   m_Component:
   - component: {fileID: 612587328}
   - component: {fileID: 612587329}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: montanhas-01 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9659,7 +9659,7 @@ GameObject:
   m_Component:
   - component: {fileID: 621020602}
   - component: {fileID: 621020603}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: chao-01 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11544,7 +11544,7 @@ GameObject:
   m_Component:
   - component: {fileID: 722411028}
   - component: {fileID: 722411029}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: chao-01 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11795,7 +11795,7 @@ GameObject:
   m_Component:
   - component: {fileID: 729748150}
   - component: {fileID: 729748151}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: fundo-01 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12057,7 +12057,7 @@ GameObject:
   m_Component:
   - component: {fileID: 744351926}
   - component: {fileID: 744351927}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: nuvens-01 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12334,7 +12334,7 @@ GameObject:
   m_Component:
   - component: {fileID: 766997312}
   - component: {fileID: 766997313}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: arvores-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12740,7 +12740,7 @@ GameObject:
   m_Component:
   - component: {fileID: 788557064}
   - component: {fileID: 788557065}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: montanhas-01 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13017,7 +13017,7 @@ GameObject:
   m_Component:
   - component: {fileID: 798210374}
   - component: {fileID: 798210375}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: fundo-01 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13294,7 +13294,7 @@ GameObject:
   m_Component:
   - component: {fileID: 815621289}
   - component: {fileID: 815621290}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: fundo-01 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13369,7 +13369,7 @@ GameObject:
   m_Component:
   - component: {fileID: 827648714}
   - component: {fileID: 827648715}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: nuvens-01 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13747,7 +13747,7 @@ GameObject:
   m_Component:
   - component: {fileID: 853059608}
   - component: {fileID: 853059609}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: nuvens-01 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14110,7 +14110,7 @@ GameObject:
   m_Component:
   - component: {fileID: 892014279}
   - component: {fileID: 892014280}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: arvores-01 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14488,7 +14488,7 @@ GameObject:
   m_Component:
   - component: {fileID: 899115221}
   - component: {fileID: 899115222}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: montanhas-01 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14924,7 +14924,7 @@ GameObject:
   m_Component:
   - component: {fileID: 920429233}
   - component: {fileID: 920429234}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: fundo-01 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15691,7 +15691,7 @@ GameObject:
   m_Component:
   - component: {fileID: 950525103}
   - component: {fileID: 950525104}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: chao-01 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16975,7 +16975,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1011120805}
   - component: {fileID: 1011120806}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: fundo-01 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17353,7 +17353,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1024143311}
   - component: {fileID: 1024143312}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: chao-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17428,7 +17428,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1029447126}
   - component: {fileID: 1029447127}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: chao-01 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17679,7 +17679,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1036277758}
   - component: {fileID: 1036277759}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: arvores-01 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17754,7 +17754,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1038417215}
   - component: {fileID: 1038417216}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: montanhas-01 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18570,7 +18570,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1074464604}
   m_Layer: 9
-  m_Name: Bacgrounds
+  m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18604,7 +18604,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1082595544}
   - component: {fileID: 1082595545}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: arvores-01 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20578,7 +20578,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1235928831}
   - component: {fileID: 1235928832}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: fundo-01 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21562,7 +21562,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1319212749}
   - component: {fileID: 1319212750}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: fundo-01 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21738,7 +21738,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1326763193}
   - component: {fileID: 1326763194}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: montanhas-01 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21914,7 +21914,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1332617674}
   - component: {fileID: 1332617675}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: fundo-01 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22425,7 +22425,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1361261777}
   - component: {fileID: 1361261778}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: fundo-01 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22803,7 +22803,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1407940503}
   - component: {fileID: 1407940504}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: chao-01 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25522,7 +25522,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1538417978}
   - component: {fileID: 1538417979}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: nuvens-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26098,7 +26098,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1569780126}
   - component: {fileID: 1569780127}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: fundo-01 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27679,7 +27679,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1647583381}
   - component: {fileID: 1647583382}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: montanhas-01 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27855,7 +27855,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1662856706}
   - component: {fileID: 1662856707}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: arvores-01 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28132,7 +28132,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1666246665}
   - component: {fileID: 1666246666}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: montanhas-01 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29273,7 +29273,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1728204442}
   - component: {fileID: 1728204443}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: arvores-01 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29348,7 +29348,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1741906011}
   - component: {fileID: 1741906012}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: nuvens-01 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29887,7 +29887,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1773950607}
   - component: {fileID: 1773950608}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: montanhas-01 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31408,7 +31408,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1838148991}
   - component: {fileID: 1838148992}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: montanhas-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31669,7 +31669,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1853902208}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 95.34, y: 8.47, z: 0}
+  m_LocalPosition: {x: -13.7, y: -2.1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 657286670}
@@ -32095,7 +32095,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1878865749}
   - component: {fileID: 1878865750}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: fundo-01 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32170,7 +32170,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1880694893}
   - component: {fileID: 1880694894}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: arvores-01 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32639,7 +32639,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1905284891}
   - component: {fileID: 1905284892}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: montanhas-01 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34150,7 +34150,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2001477933}
   - component: {fileID: 2001477934}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: lua-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34502,7 +34502,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2040169119}
   - component: {fileID: 2040169120}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: nuvens-01 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34652,7 +34652,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2055905439}
   - component: {fileID: 2055905440}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: arvores-01 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34727,7 +34727,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2086348713}
   - component: {fileID: 2086348714}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: chao-01 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35307,7 +35307,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2115079191}
   - component: {fileID: 2115079192}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: fundo-01 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35382,7 +35382,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2115459735}
   - component: {fileID: 2115459736}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: montanhas-01 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
