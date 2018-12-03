@@ -93,6 +93,11 @@ public class PlayerMovement : MonoBehaviour
         { 
             Destroy(other.gameObject);
         }
+
+        if (other.gameObject.name == "Ammo")
+        {
+            Destroy(other.gameObject);
+        }
     }
     
 }
