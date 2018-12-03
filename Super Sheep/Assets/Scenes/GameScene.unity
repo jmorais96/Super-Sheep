@@ -7952,7 +7952,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   xMin: 5
-  xMax: 350
+  xMax: 500
   yMin: -30
   yMax: 100
 --- !u!20 &519420031
@@ -31998,7 +31998,7 @@ MonoBehaviour:
   firePoint: {fileID: 435642041}
   bulleftPrefab: {fileID: 1005239293281126, guid: 33d9d1638be846a489d7a3d0cf416040,
     type: 2}
-  bullet: 5
+  bullet: 3
 --- !u!61 &1853902217
 BoxCollider2D:
   m_ObjectHideFlags: 0
