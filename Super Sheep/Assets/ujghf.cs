@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class JumpCollider : MonoBehaviour {
+public class ujghf : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {

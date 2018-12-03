@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TakeLife : MonoBehaviour
+public class Takelife : MonoBehaviour
 {
 
     GameObject spawn;
@@ -16,6 +16,7 @@ public class TakeLife : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collider)
     {
+        
         CtrlLife.health -= 1;
 
         if (CtrlLife.health != 0)
@@ -25,4 +26,5 @@ public class TakeLife : MonoBehaviour
 
     }
 }
+
 
