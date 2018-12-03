@@ -31998,7 +31998,7 @@ MonoBehaviour:
   firePoint: {fileID: 435642041}
   bulleftPrefab: {fileID: 1005239293281126, guid: 33d9d1638be846a489d7a3d0cf416040,
     type: 2}
-  bullet: 3
+  bullet: 5
 --- !u!61 &1853902217
 BoxCollider2D:
   m_ObjectHideFlags: 0
