@@ -6,7 +6,7 @@ public class weapon : MonoBehaviour {
 
     public Transform firePoint;
     public GameObject bulleftPrefab;
-    public int bullet = 5;
+    public int bullet = 3;
 
 	//if z is pressed start shoot function
 	void Update () {
@@ -30,9 +30,14 @@ public class weapon : MonoBehaviour {
     {
         if (col.gameObject.name == "Ammo")
         {
-            if (bullet < 5)
+            if (bullet < 3)
             {
-                bullet = bullet + 1;
+                int tempbullet = bullet;
+
+                tempbullet = 3 - tempbullet;
+
+                bullet = bullet + tempbullet;
+                
             }
             
 
