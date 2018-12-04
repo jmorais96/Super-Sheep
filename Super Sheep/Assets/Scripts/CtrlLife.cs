@@ -20,11 +20,15 @@ public class CtrlLife: MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(health);
+       // Debug.Log(health);
 
         if (health <= 0)
         {
             gameOver.gameObject.SetActive(true);
+        }
+        if (health <= 4)
+        {
+
         }
 
         if (health > 3)
