@@ -10,7 +10,7 @@ public class Takelife : MonoBehaviour
 
     private void Start()
     {
-        spawn = GameObject.Find("Spawn");
+        spawn = GameObject.Find("spawn");
         player = GameObject.Find("Player");
     }
 
