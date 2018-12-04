@@ -18,6 +18,10 @@ public class Player_Health : MonoBehaviour {
         if (col.gameObject.name == "Spikes")
         {
             System.Threading.Thread.Sleep(300);
+
+            // Death sound
+            FindObjectOfType<AudioManager>().Play("PlayerDeath");
+
             Die();
         } else if (col.gameObject.name == "Enemy")
         {
