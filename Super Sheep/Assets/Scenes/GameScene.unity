@@ -28856,7 +28856,7 @@ Transform:
   - {fileID: 1828574502}
   - {fileID: 261571153}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1707536416
 GameObject:
@@ -32171,7 +32171,6 @@ Transform:
   m_GameObject: {fileID: 1853902208}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -3.6, y: -2.7, z: 0}
-
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 657286670}
@@ -32245,7 +32244,7 @@ MonoBehaviour:
   grounded: 0
   whatIsGround:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 1024
 --- !u!114 &1853902216
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32261,7 +32260,6 @@ MonoBehaviour:
   bulleftPrefab: {fileID: 1005239293281126, guid: 33d9d1638be846a489d7a3d0cf416040,
     type: 2}
   bullet: 3
-
 --- !u!61 &1853902217
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -33998,7 +33996,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1970720420
 GameObject:
