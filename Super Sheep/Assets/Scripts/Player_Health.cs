@@ -7,9 +7,7 @@ public class Player_Health : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (gameObject.transform.position.y < -200) { 
-			Die ();
-		}
+		
 	}
 
     // Death when the sheep touchs an enemy or spike
@@ -17,23 +15,23 @@ public class Player_Health : MonoBehaviour {
     {
         if (col.gameObject.name == "Spikes")
         {
-            System.Threading.Thread.Sleep(300);
-
-            // Death sound
             FindObjectOfType<AudioManager>().Play("PlayerDeath");
+            StartCoroutine(Wait());
+        }
 
-            Die();
-        } else if (col.gameObject.name == "Enemy")
+        else if (col.gameObject.name == "Enemy")
         {
-            System.Threading.Thread.Sleep(300);
-            Die();
+            FindObjectOfType<AudioManager>().Play("PlayerDeath");
+            StartCoroutine(Wait());
         }
     }
 
-    // Death method
-    void Die()
+    // Time gap after death
+    IEnumerator Wait()
     {
+        yield return new WaitForSeconds(0.3f);
         SceneManager.LoadScene("GameScene");
     }
+
 
 }
