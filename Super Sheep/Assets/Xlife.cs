@@ -10,6 +10,10 @@ public class Xlife : MonoBehaviour
         player = GameObject.Find("Player");
     }
     private void OnTriggerEnter2D(Collider2D collider){
+
+        // Life Power-Up sound
+        FindObjectOfType<AudioManager>().Play("PowerUpSound");
+
         Destroy(gameObject);
         CtrlLife.health += 1;  
     }
