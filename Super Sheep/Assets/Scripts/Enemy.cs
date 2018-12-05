@@ -14,14 +14,21 @@ public class Enemy : MonoBehaviour {
 
         if (health <= 0)
         {
-            Die();
+            if (gameObject.name == "EnemyAlien")
+            {
+                Die();
+                FindObjectOfType<AudioManager>().Play("AlienEnemyDeath");
+            } else if(gameObject.name == "EnemyFox")
+            {
+                Die();
+                FindObjectOfType<AudioManager>().Play("FoxEnemyDeath");
+            }
         }
     }
 
         
     void Die()
     {
-        
         Destroy(gameObject);
     }
 

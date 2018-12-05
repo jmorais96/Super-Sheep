@@ -43,6 +43,9 @@ public class PlayerMovement : MonoBehaviour
                 animator.SetFloat("Speed", -1);
 
                 Jump();
+
+                FindObjectOfType<AudioManager>().Play("PlayerJump");
+                
             }
             
                 
