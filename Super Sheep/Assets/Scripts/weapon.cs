@@ -1,22 +1,35 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
 using UnityEngine;
 
 public class weapon : MonoBehaviour {
 
     public Transform firePoint;
     public GameObject bulleftPrefab;
+    public Text countText;
+
     public int bullet = 3;
 
-	//if z is pressed start shoot function
-	void Update () {
+    GameObject ammunation;
+
+    void Start()
+    {
+        SetCountText();
+        
+    }
+
+    //if z is pressed start shoot function
+    void Update () {
 
 
         if (Input.GetButtonDown("Fire1"))
         {
             if (bullet > 0)
             {
+                Destroy(ammunation);
                 bullet = bullet - 1;
+                SetCountText();
                 Shoot();
                 FindObjectOfType<AudioManager>().Play("PlayerAttack");
             }
@@ -38,12 +51,19 @@ public class weapon : MonoBehaviour {
                 tempbullet = 3 - tempbullet;
 
                 bullet = bullet + tempbullet;
-                
+
+                SetCountText();
+
             }
             
 
         }
 
+    }
+
+    void SetCountText()
+    {
+        countText.text = bullet.ToString();
     }
 
     //shoot function
