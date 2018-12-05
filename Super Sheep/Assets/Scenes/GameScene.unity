@@ -18142,7 +18142,7 @@ GameObject:
   - component: {fileID: 1039161542}
   - component: {fileID: 1039161544}
   m_Layer: 10
-  m_Name: Enemy
+  m_Name: EnemyAlien
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18155,7 +18155,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1039161536}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 34.51, y: 8.92, z: 0.10284175}
+  m_LocalPosition: {x: 34.44, y: 8.99, z: 0.10284175}
   m_LocalScale: {x: 0.74, y: 0.8, z: 1}
   m_Children:
   - {fileID: 661026783}
@@ -35385,10 +35385,29 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sounds:
+  - name: BackgroundMusic
+    clip: {fileID: 8300000, guid: e46c6f851be7b10409f04da6e67cb04a, type: 3}
+    volume: 0.639
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
   - name: PlayerDeath
     clip: {fileID: 8300000, guid: 40806134cbdb9c348a3a43dd87bf86c3, type: 3}
     volume: 1
-    pitch: 1.76
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: PlayerAttack
+    clip: {fileID: 8300000, guid: 3aecaa577a3279f4f914746fd89ab4c2, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: PlayerJump
+    clip: {fileID: 8300000, guid: 94384fa0dc4340947bc1ad6999f45ccd, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
     source: {fileID: 0}
 --- !u!4 &2088067998
 Transform:
