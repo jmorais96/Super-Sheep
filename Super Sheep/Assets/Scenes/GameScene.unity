@@ -12306,9 +12306,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c89cbf39d1da814c91340b9635c2428, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  distance: 0
-  groundDetection: {fileID: 0}
+  speed: 1
+  distance: 1
+  groundDetection: {fileID: 1638453880}
 --- !u!61 &743213650
 BoxCollider2D:
   m_ObjectHideFlags: 0
