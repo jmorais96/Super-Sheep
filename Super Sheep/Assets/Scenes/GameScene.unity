@@ -3265,7 +3265,7 @@ GameObject:
   - component: {fileID: 232383163}
   - component: {fileID: 232383162}
   - component: {fileID: 232383161}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: EnemyAlien
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8866,7 +8866,7 @@ GameObject:
   - component: {fileID: 572290761}
   - component: {fileID: 572290760}
   m_Layer: 10
-  m_Name: life2
+  m_Name: LifePowerUp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8955,7 +8955,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 572290759}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.72, y: 4.55, z: 5.952381}
+  m_LocalPosition: {x: 1.71, y: 4.55, z: 5.952381}
   m_LocalScale: {x: 0.07879233, y: 0.38214284, z: 0.38214284}
   m_Children: []
   m_Father: {fileID: 519420032}
@@ -11436,7 +11436,7 @@ GameObject:
   - component: {fileID: 690610780}
   - component: {fileID: 690610782}
   - component: {fileID: 690610781}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: Gameover
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16033,8 +16033,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c89cbf39d1da814c91340b9635c2428, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
-  distance: 1
+  speed: 5
+  distance: 2
   groundDetection: {fileID: 773816722}
 --- !u!114 &948381749
 MonoBehaviour:
@@ -26506,7 +26506,7 @@ GameObject:
   - component: {fileID: 1545442091}
   - component: {fileID: 1545442088}
   m_Layer: 10
-  m_Name: 'life '
+  m_Name: LifePowerUp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -34339,7 +34339,7 @@ GameObject:
   - component: {fileID: 1957397207}
   - component: {fileID: 1957397206}
   m_Layer: 10
-  m_Name: life3
+  m_Name: LifePowerUp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -35915,6 +35915,12 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: AlienEnemyDeath
     clip: {fileID: 8300000, guid: 0084d574d8601444f894b5acf5318e02, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: PowerUpSound
+    clip: {fileID: 8300000, guid: 00ef5e62ff3341147aa94c6d5db3e817, type: 3}
     volume: 1
     pitch: 1
     loop: 0
