@@ -1443,7 +1443,7 @@ GameObject:
   - component: {fileID: 77632354}
   - component: {fileID: 77632350}
   m_Layer: 10
-  m_Name: Enemy
+  m_Name: EnemyAlien
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3191,7 +3191,7 @@ GameObject:
   - component: {fileID: 232383162}
   - component: {fileID: 232383161}
   m_Layer: 5
-  m_Name: GameOver
+  m_Name: EnemyAlien
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12183,7 +12183,7 @@ GameObject:
   - component: {fileID: 743213651}
   - component: {fileID: 743213650}
   m_Layer: 10
-  m_Name: Enemy
+  m_Name: EnemyAlien
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12196,7 +12196,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 743213643}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 71.65, y: 7.1, z: 0.10284175}
+  m_LocalPosition: {x: 71.59, y: 7.1, z: 0.10284175}
   m_LocalScale: {x: 0.74, y: 0.79999995, z: 1}
   m_Children:
   - {fileID: 1638453880}
@@ -13601,7 +13601,7 @@ GameObject:
   - component: {fileID: 815621289}
   - component: {fileID: 815621290}
   m_Layer: 9
-  m_Name: fundo-01 (3)
+  m_Name: EnemyFox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15715,8 +15715,9 @@ GameObject:
   - component: {fileID: 948381747}
   - component: {fileID: 948381746}
   - component: {fileID: 948381745}
+  - component: {fileID: 948381752}
   m_Layer: 10
-  m_Name: Fox (2)
+  m_Name: EnemyFox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15807,9 +15808,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c89cbf39d1da814c91340b9635c2428, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  distance: 0
-  groundDetection: {fileID: 0}
+  speed: 1
+  distance: 1
+  groundDetection: {fileID: 773816722}
 --- !u!114 &948381749
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15887,6 +15888,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &948381752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 948381743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb6b8c101a710c042a1d5b22c1963d1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &948817111
 GameObject:
   m_ObjectHideFlags: 0
@@ -35405,6 +35417,18 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: PlayerJump
     clip: {fileID: 8300000, guid: 94384fa0dc4340947bc1ad6999f45ccd, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: FoxEnemyDeath
+    clip: {fileID: 8300000, guid: 22cc7ffd320ca4c418d60d9868dd83b7, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: AlienEnemyDeath
+    clip: {fileID: 8300000, guid: 0084d574d8601444f894b5acf5318e02, type: 3}
     volume: 1
     pitch: 1
     loop: 0
