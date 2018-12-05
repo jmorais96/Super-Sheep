@@ -14,14 +14,16 @@ public class Enemy : MonoBehaviour {
 
         if (health <= 0)
         {
-            Die();
+            if (gameObject.name == "EnemyAlien")
+            {
+                Die();
+            }
         }
     }
 
         
     void Die()
     {
-        
         Destroy(gameObject);
     }
 

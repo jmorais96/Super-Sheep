@@ -18,6 +18,7 @@ public class weapon : MonoBehaviour {
             {
                 bullet = bullet - 1;
                 Shoot();
+                FindObjectOfType<AudioManager>().Play("PlayerAttack");
             }
 
 
