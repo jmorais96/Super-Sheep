@@ -1442,7 +1442,6 @@ GameObject:
   - component: {fileID: 77632353}
   - component: {fileID: 77632354}
   - component: {fileID: 77632350}
-  - component: {fileID: 77632356}
   m_Layer: 10
   m_Name: EnemyAlien
   m_TagString: Untagged
@@ -4684,17 +4683,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &271321909
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 271321900}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d6f7d3073e708f40adba014d3a27c69, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &272900893
 GameObject:
   m_ObjectHideFlags: 0
@@ -12374,7 +12362,7 @@ Transform:
   m_LocalScale: {x: 0.479, y: 0.489, z: 1}
   m_Children: []
   m_Father: {fileID: 1611988687}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &742642571
 MonoBehaviour:
@@ -16065,6 +16053,7 @@ GameObject:
   - component: {fileID: 948381747}
   - component: {fileID: 948381745}
   - component: {fileID: 948381746}
+  - component: {fileID: 948381752}
   m_Layer: 10
   m_Name: EnemyFox
   m_TagString: Untagged
@@ -27863,6 +27852,7 @@ Transform:
   m_Children:
   - {fileID: 680384541}
   - {fileID: 1024167807}
+  - {fileID: 742642570}
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
