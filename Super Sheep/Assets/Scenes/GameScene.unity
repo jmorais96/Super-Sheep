@@ -18491,6 +18491,7 @@ GameObject:
   - component: {fileID: 1039161538}
   - component: {fileID: 1039161542}
   - component: {fileID: 1039161544}
+  - component: {fileID: 1039161545}
   m_Layer: 10
   m_Name: EnemyAlien
   m_TagString: Untagged
@@ -18663,6 +18664,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.64, y: 2.26}
   m_EdgeRadius: 0
+--- !u!114 &1039161545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1039161536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d6f7d3073e708f40adba014d3a27c69, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1043755160
 GameObject:
   m_ObjectHideFlags: 0
@@ -22370,6 +22382,7 @@ GameObject:
   - component: {fileID: 1321813326}
   - component: {fileID: 1321813328}
   - component: {fileID: 1321813327}
+  - component: {fileID: 1321813329}
   m_Layer: 10
   m_Name: Spikes
   m_TagString: Static_Enemy
@@ -22461,6 +22474,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1321813329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1321813325}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d6f7d3073e708f40adba014d3a27c69, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1326763192
 GameObject:
   m_ObjectHideFlags: 0
