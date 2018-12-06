@@ -29,7 +29,8 @@ public class Player_Health : MonoBehaviour {
     // Time gap after death
     IEnumerator Wait()
     {
-        yield return new WaitForSeconds(0.3f);
+        Debug.Log("here");
+        yield return new WaitForSeconds(0f);
         SceneManager.LoadScene("GameScene");
     }
 
