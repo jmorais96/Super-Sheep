@@ -1443,7 +1443,7 @@ GameObject:
   - component: {fileID: 77632354}
   - component: {fileID: 77632350}
   m_Layer: 10
-  m_Name: Enemy
+  m_Name: EnemyAlien
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4512,7 +4512,7 @@ GameObject:
   - component: {fileID: 271321902}
   - component: {fileID: 271321903}
   m_Layer: 10
-  m_Name: Enemy
+  m_Name: EnemyAlien
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12406,7 +12406,7 @@ GameObject:
   - component: {fileID: 743213651}
   - component: {fileID: 743213650}
   m_Layer: 10
-  m_Name: Enemy
+  m_Name: EnemyAlien
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16014,7 +16014,7 @@ GameObject:
   - component: {fileID: 948381745}
   - component: {fileID: 948381746}
   m_Layer: 10
-  m_Name: Enemy
+  m_Name: EnemyAlien
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18468,7 +18468,7 @@ GameObject:
   - component: {fileID: 1039161542}
   - component: {fileID: 1039161544}
   m_Layer: 10
-  m_Name: Enemy
+  m_Name: EnemyAlien
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
