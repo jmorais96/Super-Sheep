@@ -7,6 +7,8 @@ TagManager:
   - Enemy
   - Static_Enemy
   - Ground
+  - xLife
+  - Ammo
   layers:
   - Default
   - TransparentFX
