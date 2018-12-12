@@ -12307,8 +12307,8 @@ GameObject:
   - component: {fileID: 742642572}
   - component: {fileID: 742642571}
   m_Layer: 8
-  m_Name: +life/kamicazi
-  m_TagString: Untagged
+  m_Name: xLife
+  m_TagString: xLife
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32501,7 +32501,7 @@ GameObject:
   - component: {fileID: 1838547853}
   m_Layer: 0
   m_Name: Ammo
-  m_TagString: Untagged
+  m_TagString: Ammo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

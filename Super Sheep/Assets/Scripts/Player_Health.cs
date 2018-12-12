@@ -7,11 +7,26 @@ public class Player_Health : MonoBehaviour {
 
     GameObject spawn;
     GameObject player;
+    GameObject xLife;
+    GameObject ammo;
 
     private void Start()
     {
         spawn = GameObject.Find("Spawn");
         player = GameObject.Find("Player");
+        xLife = GameObject.Find("xLife");
+        ammo = GameObject.Find("Ammo");
+
+        if (CtrlLife.health < 3 && Xlife.xLifeTaken)
+        {
+            xLife.SetActive(false);
+        }
+
+        if (weapon.ammunationTaken)
+        {
+            ammo.SetActive(false);
+        }
+
     }
 
    
@@ -38,10 +53,8 @@ public class Player_Health : MonoBehaviour {
     // Time gap after death
     IEnumerator Wait()
     {
-        Debug.Log("here");
         yield return new WaitForSeconds(0f);
         SceneManager.LoadScene("GameScene");
     }
-
 
 }

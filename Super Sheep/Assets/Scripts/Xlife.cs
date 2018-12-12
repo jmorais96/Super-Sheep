@@ -5,14 +5,25 @@ using UnityEngine;
 public class Xlife : MonoBehaviour
 {
     GameObject player;
-    private void Start(){
+    GameObject xLife;
+    public static bool xLifeTaken;
 
+    private void Start()
+    {
         player = GameObject.Find("Player");
     }
-    private void OnTriggerEnter2D(Collider2D collider){
+
+    private void Update()
+    {
+        
+    }
+
+    private void OnTriggerEnter2D(Collider2D collider)
+    {
         Destroy(gameObject);
         FindObjectOfType<AudioManager>().Play("PowerUpSound");
-        CtrlLife.health += 1;  
+        CtrlLife.health += 1;
+        xLifeTaken = true;
     }
 }
 
