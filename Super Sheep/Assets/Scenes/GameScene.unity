@@ -6235,7 +6235,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 391826407}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 182.6, y: -3.5, z: 0}
+  m_LocalPosition: {x: 183.1, y: -0.16, z: 0}
   m_LocalScale: {x: 1.105333, y: 1.1679242, z: 0.9693771}
   m_Children: []
   m_Father: {fileID: 713406874}
@@ -9186,7 +9186,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.005343437, y: -0.45045418}
+  m_Offset: {x: 0.005343437, y: -0.34515116}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -9197,7 +9197,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 4.26464, y: 1.9274246}
+  m_Size: {x: 4.26464, y: 2.1380305}
   m_EdgeRadius: 0
 --- !u!1 &585841339
 GameObject:
@@ -12307,8 +12307,8 @@ GameObject:
   - component: {fileID: 742642572}
   - component: {fileID: 742642571}
   m_Layer: 8
-  m_Name: +life/kamicazi
-  m_TagString: Untagged
+  m_Name: xLife
+  m_TagString: xLife
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14538,7 +14538,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.05293274, y: -0.6616723}
+  m_Offset: {x: 0.05293274, y: -0.4483801}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -14549,7 +14549,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 5.3747997, y: 1.6723648}
+  m_Size: {x: 5.3747997, y: 2.0989492}
   m_EdgeRadius: 0
 --- !u!61 &879940803
 BoxCollider2D:
@@ -15471,7 +15471,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0000017881393, y: -0.706651}
+  m_Offset: {x: 0.0000019073486, y: -0.50592613}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -15482,7 +15482,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 4.268757, y: 1.513269}
+  m_Size: {x: 4.268757, y: 1.9147186}
   m_EdgeRadius: 0
 --- !u!61 &917127048
 BoxCollider2D:
@@ -25200,7 +25200,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.000006198883, y: -0.66575813}
+  m_Offset: {x: -0.000006198883, y: -0.4540354}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -25211,7 +25211,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 4.236759, y: 1.7774391}
+  m_Size: {x: 4.236759, y: 2.2008846}
   m_EdgeRadius: 0
 --- !u!61 &1492245009
 BoxCollider2D:
@@ -31806,7 +31806,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.00088334084, y: -0.59129393}
+  m_Offset: {x: 0.00088334084, y: -0.38401237}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -31817,7 +31817,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 4.229051, y: 1.5935271}
+  m_Size: {x: 4.229051, y: 2.0080903}
   m_EdgeRadius: 0
 --- !u!61 &1811020411
 BoxCollider2D:
@@ -32501,7 +32501,7 @@ GameObject:
   - component: {fileID: 1838547853}
   m_Layer: 0
   m_Name: Ammo
-  m_TagString: Untagged
+  m_TagString: Ammo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37472,7 +37472,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.02307427, y: -0.6661256}
+  m_Offset: {x: -0.02307415, y: -0.4980003}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -37483,7 +37483,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 5.225505, y: 1.8109859}
+  m_Size: {x: 5.225505, y: 2.1472366}
   m_EdgeRadius: 0
 --- !u!61 &2144115009
 BoxCollider2D:

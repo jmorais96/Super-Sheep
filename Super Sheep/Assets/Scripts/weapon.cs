@@ -12,6 +12,7 @@ public class weapon : MonoBehaviour {
     public int bullet = 3;
 
     GameObject ammunation;
+    public static bool ammunationTaken;
 
     void Start()
     {
@@ -43,6 +44,7 @@ public class weapon : MonoBehaviour {
     private void OnTriggerEnter2D(Collider2D col)
     {
         if (col.gameObject.name == "Ammo")
+            ammunationTaken = true;
         {
             if (bullet < 3)
             {
