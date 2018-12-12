@@ -5,7 +5,7 @@ using UnityEngine;
 public class CtrlLife: MonoBehaviour
 {
     [SerializeField]
-    public GameObject life, life2, life3, gameOver;
+    public GameObject life, life2, life3, gameOver,Restart,Quit;
     public static int health = 3;
     // Use this for initialization
     void Start()
@@ -14,6 +14,8 @@ public class CtrlLife: MonoBehaviour
         life2.gameObject.SetActive(true);
         life3.gameObject.SetActive(true);
         gameOver.gameObject.SetActive(false);
+        Restart.gameObject.SetActive(false);
+        Quit.gameObject.SetActive(false);
 
     }
 
@@ -25,6 +27,8 @@ public class CtrlLife: MonoBehaviour
         if (health <= 0)
         {
             gameOver.gameObject.SetActive(true);
+            Restart.gameObject.SetActive(true);
+            Quit.gameObject.SetActive(true);
         }
         if (health <= 4)
         {
