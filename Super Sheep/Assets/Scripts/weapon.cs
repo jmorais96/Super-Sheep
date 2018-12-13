@@ -44,7 +44,8 @@ public class weapon : MonoBehaviour {
     private void OnTriggerEnter2D(Collider2D col)
     {
         if (col.gameObject.name == "Ammo")
-        { 
+        {
+            FindObjectOfType<AudioManager>().Play("AmmoRefilSound");
             ammunationTaken = true;
         
             if (bullet < 3)

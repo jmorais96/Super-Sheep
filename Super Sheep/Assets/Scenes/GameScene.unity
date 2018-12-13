@@ -32889,7 +32889,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1853902208}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.62, y: -3.1, z: 0}
+  m_LocalPosition: {x: -4.59, y: -3.26, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 657286670}
@@ -36139,6 +36139,12 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: PowerUpSound
     clip: {fileID: 8300000, guid: 00ef5e62ff3341147aa94c6d5db3e817, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: AmmoRefilSound
+    clip: {fileID: 8300000, guid: 5b9b1fefbed950a4e860e45b211ea7d5, type: 3}
     volume: 1
     pitch: 1
     loop: 0
