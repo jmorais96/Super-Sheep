@@ -1723,8 +1723,8 @@ GameObject:
   - component: {fileID: 77632355}
   - component: {fileID: 77632353}
   - component: {fileID: 77632354}
-  - component: {fileID: 77632350}
   - component: {fileID: 77632356}
+  - component: {fileID: 77632350}
   m_Layer: 10
   m_Name: EnemyAlien
   m_TagString: Enemy
@@ -1869,7 +1869,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0.62850046}
@@ -34643,7 +34643,7 @@ CircleCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1853902208}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 6200000, guid: 68340187556ed164ba7528ada1ce404c, type: 2}
   m_IsTrigger: 0
@@ -34736,7 +34736,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.3125863, y: -0.49774253}
+  m_Offset: {x: -0.16, y: -0.49774253}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -34747,7 +34747,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.5912256, y: 1.698971}
+  m_Size: {x: 1.1, y: 1.698971}
   m_EdgeRadius: 0
 --- !u!1 &1857896344
 GameObject:
