@@ -22,7 +22,7 @@ public class CtrlLife: MonoBehaviour
     void Update()
     {
        //Debug.Log(health);
-Debug.Log(Time.timeScale);
+
         if (health <= 0)
         {
             gameOver.gameObject.SetActive(true);
