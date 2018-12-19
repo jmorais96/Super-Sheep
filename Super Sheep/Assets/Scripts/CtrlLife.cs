@@ -10,6 +10,7 @@ public class CtrlLife: MonoBehaviour
     // Use this for initialization
     void Start()
     {
+        
         life.gameObject.SetActive(true);
         life2.gameObject.SetActive(true);
         life3.gameObject.SetActive(true);
@@ -21,15 +22,12 @@ public class CtrlLife: MonoBehaviour
     void Update()
     {
        //Debug.Log(health);
-
+Debug.Log(Time.timeScale);
         if (health <= 0)
         {
             gameOver.gameObject.SetActive(true);
         }
-        if (health <= 4)
-        {
-
-        }
+      
 
         if (health > 3)
             health = 3;
@@ -58,6 +56,7 @@ public class CtrlLife: MonoBehaviour
                
                 Time.timeScale = 0;
                 break;
+            
 
         }
 

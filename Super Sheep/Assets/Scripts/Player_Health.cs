@@ -20,6 +20,7 @@ public class Player_Health : MonoBehaviour {
         if (CtrlLife.health < 3 && Xlife.xLifeTaken)
         {
             xLife.SetActive(false);
+            
         }
 
         if (weapon.ammunationTaken)
