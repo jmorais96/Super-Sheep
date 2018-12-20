@@ -25,9 +25,10 @@ public class CtrlLife: MonoBehaviour
 
         if (health <= 0)
         {
+            FindObjectOfType<AudioManager>().Play("GameOverSound");
             gameOver.gameObject.SetActive(true);
         }
-      
+
 
         if (health > 3)
             health = 3;
