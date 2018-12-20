@@ -13,6 +13,7 @@ public class EndGame : MonoBehaviour
         if (other.gameObject.name == "EndGameFlag")
         {
             Win();
+            Time.timeScale = 0;
         }
 
     }
