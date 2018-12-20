@@ -4,7 +4,7 @@ using UnityEngine.Events;
 public class PlayerMovement : MonoBehaviour
 {
 
-    
+
     public Animator animator;
     public int playerSpeed = 10;
     public bool facingRight = false;
@@ -23,55 +23,63 @@ public class PlayerMovement : MonoBehaviour
         myCollider = GetComponent<Collider2D>();
     }
 
-    void Update() {
+    void Update()
+    {
 
         grounded = Physics2D.IsTouchingLayers(myCollider, whatIsGround);
 
         PlayerMove();
-      
+
 
     }
 
-    void PlayerMove(){
-    
-        if (Input.GetKeyDown(KeyCode.X)){
+    void PlayerMove()
+    {
+
+        if (Input.GetKeyDown(KeyCode.X))
+        {
 
             animator.SetTrigger("Jump");
 
-            if (grounded){
+            if (grounded)
+            {
 
                 animator.SetFloat("Speed", -1);
 
                 Jump();
 
                 FindObjectOfType<AudioManager>().Play("PlayerJump");
-                
+
             }
-            
-                
+
+
         }
-        
+
         //CONTROLS
 
         //player running
         moveX = Input.GetAxis("Horizontal");
 
         //PLAYER DIRECTION
-        if (moveX < 0.0f && facingRight == false){
+        if (moveX < 0.0f && facingRight == false)
+        {
             FlipPlayer();
-        }else if (moveX > 0.0f && facingRight == true){
+        }
+        else if (moveX > 0.0f && facingRight == true)
+        {
             FlipPlayer();
         }
 
-       
+
 
         //PHYSICS
-        gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(moveX * playerSpeed,gameObject.GetComponent<Rigidbody2D>().velocity.y);
+        gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(moveX * playerSpeed, gameObject.GetComponent<Rigidbody2D>().velocity.y);
 
         animator.SetFloat("Speed", Mathf.Abs(moveX));
     }
 
-    void Jump(){
+    void Jump()
+    {
 
 
         //JUMPING CODE
@@ -83,7 +91,8 @@ public class PlayerMovement : MonoBehaviour
     }
 
 
-    void FlipPlayer(){
+    void FlipPlayer()
+    {
 
         facingRight = !facingRight;
         transform.Rotate(0f, 180f, 0f);
@@ -91,9 +100,9 @@ public class PlayerMovement : MonoBehaviour
     }
 
     private void OnTriggerEnter2D(Collider2D other)
-    {   
+    {
         if (other.gameObject.name == "vida")
-        { 
+        {
             Destroy(other.gameObject);
         }
 
@@ -102,5 +111,5 @@ public class PlayerMovement : MonoBehaviour
             Destroy(other.gameObject);
         }
     }
-    
+
 }
